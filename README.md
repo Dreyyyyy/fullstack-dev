@@ -1,2 +1,2 @@
 # fullstack-dev
-Learnining about fullstack development.
+Learning about fullstack development.

@@ -1,0 +1,22 @@
+p {
+  color: gray;
+  font-size: 14px;
+}
+
+input {
+  width: 320px;
+  height: 26px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+button {
+  background-color: rgb(74, 84, 171);
+  color: white;
+  font-weight: bold;
+  height: 36px;
+  width: 324px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}

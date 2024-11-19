@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .container {
+      display:grid;
+      grid-template-columns: 160px 160px 160px;
+      column-gap: 10px;
+    }
+
+    .profile-div {
+      box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+
+      width: 100%;
+    }
+
+    .profile-pic-div {
+      width: 100%;
+    }
+
+    .profile-pic {
+      width: 100%;
+    }
+
+    .profile-desc-div {
+      align-items: middle;
+      width: 100%;
+    }
+
+    .friends-div {
+      display: grid;
+
+      grid-template-columns: 45px 1fr;
+      align-items: center;
+    }
+
+    .friends-pic {
+      margin-left: 6px;
+
+      width: 40px;
+      height: 40px;
+
+      border-radius: 50%;
+    }
+
+    p {
+      margin: 0px;
+
+      padding-left: 6px;
+    }
+
+    .name {
+      padding-top: 6px;
+      padding-bottom: 6px;
+
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .friends {
+      font-size: 12px;
+      color: gray;
+    }
+
+    .add-button {
+      margin-top: 6px;
+      margin-bottom: 6px;
+      margin-left: 6px;
+
+      background-color: rgb(80, 116, 194);
+      color: white;
+      font-weight: bold;
+
+      height: 36px;
+      width: 105px;
+      border: none;
+      border-radius: 3px;
+
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="profile-div">
+      <div class="profile-pic-div">
+        <img class="profile-pic" src="/html-css-course/exercises-7/assets/img.jpg">
+      </div>
+
+      <div class="profile-desc-div">
+        <p class="name">Oliver</p>
+
+        <div class="friends-div">
+          <img class="friends-pic" src="/html-css-course/exercises-7/assets/img.jpg">
+          <p class="friends">2 mutual friends</p>
+        </div>
+        
+        <button class="add-button">Add Friend</button>
+      </div>
+    </div>
+    
+    <div class="profile-div">
+      <div class="profile-pic-div">
+        <img class="profile-pic" src="/html-css-course/exercises-7/assets/img.jpg">
+      </div>
+
+      <div class="profile-desc-div">
+        <p class="name">Oliver</p>
+
+        <div class="friends-div">
+          <img class="friends-pic" src="/html-css-course/exercises-7/assets/img.jpg">
+          <p class="friends">2 mutual friends</p>
+        </div>
+        
+        <button class="add-button">Add Friend</button>
+      </div>
+    </div>
+
+    <div class="profile-div">
+      <div class="profile-pic-div">
+        <img class="profile-pic" src="/html-css-course/exercises-7/assets/img.jpg">
+      </div>
+
+      <div class="profile-desc-div">
+        <p class="name">Oliver</p>
+
+        <div class="friends-div">
+          <img class="friends-pic" src="/html-css-course/exercises-7/assets/img.jpg">
+          <p class="friends">2 mutual friends</p>
+        </div>
+        
+        <button class="add-button">Add Friend</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

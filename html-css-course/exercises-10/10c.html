@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .video-div {
+      display: flex;
+      width: 450px; /* or adjust to 400px */
+      height: 100px;
+      align-items: center; /* Vertically centers the content */
+    }
+
+    .thumbnail-div {
+      width: 200px;
+      height: 100px;
+    }
+
+    .image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .video-info-div {
+      width: 250px;
+      height: 100px;
+    }
+
+    p {
+      font-family: Arial, Helvetica, sans-serif;
+
+      margin-top: 0px;
+      margin-bottom: 0px;
+      margin-left: 8px;
+    }
+
+    .title {
+      color: black;
+      font-size: 14px;
+      font-weight: bold;
+      margin-top: 4px;
+      margin-bottom: 10px;
+    }
+
+    .author,
+    .description {   
+      color: rgb(56, 56, 56);
+      font-size: 12px;
+
+      margin-bottom: 6px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="video-div">
+    <div class="thumbnail-div">
+      <img class="image" src="thumbnails/thumbnail-4.webp">
+    </div>
+    
+    <div class="video-info-div">
+      <p class="title">How to compete against CS degrees (as a self-taught dev)</p>
+      <p class="author">SuperSimpleDev</p>
+      <p class="description">1.5k views · 4 months ago</p>
+    </div>
+  </div>
+</body>
+</html>

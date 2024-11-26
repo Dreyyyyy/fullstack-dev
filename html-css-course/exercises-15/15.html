@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    body {
+      height: 3000px;
+    }
+
+    .container {
+      position: relative;
+      display: inline-block;
+      height: 200px;
+      width: 250px;
+    }
+
+    .blouse-img {
+      width: 100%;
+      height: 100%;
+
+      object-fit: cover;
+
+      background-color: rgb(219, 221, 223);
+    }
+
+    .discount-tag {
+      position: absolute;
+      top: 8px;
+      right: 0px;
+      padding: 5px 8px;
+
+      background-color: black;
+      font-weight: bold;
+      color: white;
+      font-size: 10px;
+    }
+
+    .add-to-cart-overlay {
+      position: absolute;
+      width: 100%;
+      height: 60px;
+      bottom: 0px;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    .add-to-cart-button {
+      position: absolute;
+      background-color: white;
+      color:black;
+      border: 1px solid black;
+      padding: 5px 10px;
+      
+      cursor:pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img class="blouse-img" src="/html-css-course/exercises-15/assets/blouse.webp">
+
+    <div class="discount-tag">20% OFF</div>
+    <div class="add-to-cart-overlay">
+      <button class="add-to-cart-button">Add to cart</button>
+    </div>
+  </div>
+</body>
+</html>

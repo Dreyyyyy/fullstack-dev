@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    body {
+      height: 3000px;
+      padding-left: 0px;
+      margin: 0px;
+    }
+
+    P {
+      margin: 0px;
+    }
+
+    .left-sidebar {
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+      align-items: center;
+      width: 70px;
+      padding-top: 10px;
+      position: fixed;
+      left: 0px;
+      top: 0px;
+      bottom: 0px;
+
+      background-color: rgb(36, 36, 36);
+    }
+
+    .channel-pic {
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+    }
+
+    .info-bar {
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+      width: 150px;
+      position: fixed;
+      left: 70px;
+      top: 0px;
+      bottom: 0px;
+      padding: 10px 15px;
+
+      background-color: rgb(93, 93, 93);
+    }
+
+    .info-plus {
+      display: flex;
+      flex-direction: row;
+      column-gap: 10px;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .info-title {
+      font-size: 16px;
+      color: white;
+      font-weight: bold;
+    }
+
+    .info-topic {
+      font-size: 14px;
+      color: rgb(185, 185, 185);
+    }
+
+    .plus-icon {
+      width: 15px;
+      height: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="left-sidebar">
+    <img class="channel-pic" src="/html-css-course/exercises-7/assets/img.jpg">
+    <img class="channel-pic" src="/html-css-course/exercises-7/assets/img.jpg">
+    <img class="channel-pic" src="/html-css-course/exercises-7/assets/img.jpg">
+  </div>
+
+  <div class="info-bar">
+    <div class="info-plus">
+      <p class="info-title">INFO</p>
+
+      <img class="plus-icon" src="/html-css-course/exercises-14/icons/plus-symbol.svg">
+    </div>
+
+    <p class="info-topic"># news-videos</p>
+    <p class="info-topic"># updates</p>
+    <p class="info-topic"># faq</p>
+  </div>
+</body>
+</html>

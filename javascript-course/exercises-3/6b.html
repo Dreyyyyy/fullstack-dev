@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>6b</title>
+  </head>
+  <body>
+    <script>
+      const hour = 19;
+      const name = "Andrey";
+      let greeting = "";
+
+      if (hour >= 6 && hour <= 12) {
+        greeting = `Good morning ${name}!`;
+      } else if (hour >= 13 && hour <= 17) {
+        greeting = `Good afternoon ${name}!`;
+      } else greeting = `Good night! ${name}`;
+
+      console.log(greeting);
+    </script>
+  </body>
+</html>

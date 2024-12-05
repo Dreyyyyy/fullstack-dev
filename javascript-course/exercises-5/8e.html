@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>8e</title>
+  </head>
+  <body></body>
+  <script>
+    let basketball = {
+      name: "basketball",
+      price: 2095,
+    };
+
+    basketball.price += 500;
+
+    basketball["delivery-time"] = "3 days";
+
+    const baseball = {
+      name: "baseball",
+      price: 1095,
+    };
+
+    const basketball1 = basketball;
+    const basketball2 = basketball;
+
+    sameProduct = isSameProduct(basketball1, basketball2);
+
+    console.log(sameProduct);
+    function isSameProduct(product1, product2) {
+      return product1 === product2 ? true : false;
+    }
+  </script>
+</html>

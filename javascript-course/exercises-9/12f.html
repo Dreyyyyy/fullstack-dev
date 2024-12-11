@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>12f</title>
+  </head>
+  <body>
+    <script>
+      let titleIndex = 0;
+      const titles = ["(2) New messages", "App"];
+
+      setInterval(function () {
+        document.title = titles[titleIndex];
+        titleIndex = (titleIndex + 1) % 2;
+      }, 1000);
+    </script>
+  </body>
+</html>

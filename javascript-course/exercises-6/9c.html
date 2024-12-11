@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>9c</title>
+  </head>
+  <body>
+    <button class="js-heads" onclick="chooseCoin('heads');">heads</button>
+
+    <button class="js-tails" onclick="chooseCoin('tails');">tails</button>
+
+    <p class="js-display"></p>
+  </body>
+
+  <script>
+    const heads = document.querySelector(".js-heads");
+    const tails = document.querySelector(".js-tails");
+
+    let display = document.querySelector(".js-display");
+
+    function chooseCoin(coin) {
+      console.log(coin);
+
+      display.innerHTML = coin === "heads" ? "Heads" : "Tails";
+    }
+  </script>
+</html>

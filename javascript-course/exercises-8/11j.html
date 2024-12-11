@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>11j</title>
+  </head>
+  <body>
+    <script>
+      const array = [1, "hi", "search", "4", "search"];
+      let count = 0;
+      let firstSearchIndex = 0;
+
+      for (let i = 0; i < array.length; i++) {
+        if (array[i] === "search") {
+          count++;
+
+          if (count === 1) {
+            firstSearchIndex = i;
+          }
+
+          if (count > 1) {
+            console.log(i);
+            break;
+          }
+        }
+      }
+    </script>
+  </body>
+</html>

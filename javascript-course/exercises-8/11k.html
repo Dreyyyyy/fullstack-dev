@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>11k</title>
+  </head>
+  <body>
+    <script>
+      const foods = ["apple", "egg", "banana", "egg", "egg", "egg"];
+
+      let foods2 = [];
+
+      foods2 = removeEgg(foods);
+
+      console.log(foods2);
+      console.log(foods);
+      function removeEgg(foods) {
+        let newArray = [];
+
+        for (let i = 0; i < foods.length; i++) {
+          if (foods[i] === "egg") {
+            continue;
+          } else {
+            newArray.push(foods[i]);
+          }
+        }
+        return newArray;
+      }
+    </script>
+  </body>
+</html>

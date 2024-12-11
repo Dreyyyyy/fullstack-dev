@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>9d</title>
+  </head>
+  <body>
+    <input class="js-input" placeholder="Name" type="text" />
+
+    <button class="js-submit" onclick="submit();">Submit</button>
+
+    <p class="js-display"></p>
+  </body>
+
+  <script>
+    const input = document.querySelector(".js-input");
+    let display = document.querySelector(".js-display");
+
+    function submit() {
+      display.innerHTML = `Your name is: ${input.value}`;
+    }
+  </script>
+</html>
